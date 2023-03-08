@@ -1,0 +1,46 @@
+.container {
+    width:400px;
+    height: 400px;
+    margin-top: 20px;margin-left: 200px;
+    
+}
+
+#display {
+    text-align: right;
+    height: 80px;
+    line-height: 120px;
+    padding: 16px 8px;
+    font-size: 25px;
+    
+    background-color:chocolate;
+
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: antiquewhite;
+    
+}
+
+
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    
+    font-size: 25px;
+    cursor: pointer;
+    
+
+    
+}
+
+#equal {
+    background-color: blue;
+    color: white;
+}
+
